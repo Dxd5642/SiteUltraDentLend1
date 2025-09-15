@@ -1,0 +1,476 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.head{
+    position: fixed;
+    justify-content: center;
+    width: 1610px;
+    height: 92px;
+    z-index: 999;
+    margin-top: 16px;
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(65, 64, 77, 1);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    padding: 16px;
+}
+
+.header__div1__img{
+    width: 247px;
+    height: 46px;
+}
+
+.header__div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 683px;
+    height: 36px;
+}
+
+.header__div2__btn{
+    /* font-family: 'Work Sans'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    background-color: rgba(65, 64, 77, 1);
+    border: 0px;
+
+    border-radius: 16px;
+    padding: 8px 16px;
+
+    width: 131px;
+    height: 36px;
+}
+
+.header__div2__btn:hover{
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.header__div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__div3__img{
+    width: 30px;
+    height: 30px;
+}
+
+.header__div3__p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    margin: 0px;
+    width: 190px;
+    align-items: center;
+}
+
+.header__div4{
+    width: 276px;
+    height: 60px;
+}
+
+.header__div4__btn{
+    background-color: rgba(54, 122, 202, 1);
+    border-radius: 16px;
+    padding: 18px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    gap: 10px;
+    box-shadow: 0px 12px 100px rgba(180, 207, 238, 0.6);
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: right;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    border: 0px
+}
+
+
+.frag1__main-div{
+    background-image: url("images/background_image.png");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.frag1__main-div__bg_blur{
+    position: absolute;
+    /* top: 254px; */
+    left: 592px;
+    width: 735px;
+    height: 735px;
+    background-color: #FFFFFF;
+    filter: blur(400px);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.frag1__main-div__men-div{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    position: absolute;
+    right: 278px;
+}
+
+.frag1__main-div__men-img{
+    width: 735px;
+    height: 919px;
+}
+
+.frag1__main-div__men-div__div{
+    width: 320px;
+    height: 402px;
+    position: absolute;
+    top: 161px;
+    left: 75%;
+    border-radius: 16px;
+    background-color: rgba(243, 243, 243, 1);
+    padding: 30px 10px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frag1__main-div__men-div__div-title1{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(179, 179, 179, 1);
+}
+.frag1__main-div__men-div__div-title1-p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    color: #444C54;
+    margin: 0px;
+}
+
+.frag1__main-div__men-div__div-title2-div{
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frag1__main-div__men-div__div-title2-div-p1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    align-items: center;
+    letter-spacing: -0.005em;
+    color: #444C54;
+    margin: 0px;
+}
+
+.frag1__main-div__men-div__div-title2-div-p2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    align-items: center;
+    letter-spacing: -0.005em;
+    color: #444C54;
+    margin: 0px;
+}
+
+.frag1__main-div__men-div__div-title3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.frag1__main-div__men-div__div-title3-div1-p1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: -0.005em;
+    color: #367ACA;
+    margin: 0px;
+}
+
+.frag1__main-div__men-div__div-title3-div1-p2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.005em;
+    color: #444C54;
+    margin: 0px;
+}
+
+.frag1__main-div__men-div__rectangle{
+    border-left: 17.5px solid transparent;
+    border-right: 17.5px solid transparent;
+    border-bottom: 35px solid rgba(243, 243, 243, 1);
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 370px;
+    left: -34px;
+}
+
+.frag1__main-div__dental-implantation{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 30px 60px;
+    position: absolute;
+    transform: translate(192px, 287px);    
+}
+
+.frag1__main-div__dental-implantation__p1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 120%;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #367ACA;
+    margin: 0px;
+}
+
+
+.frag1__main-div__men-div__div-title3-div2-p{
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.005em;
+    color: #367ACA;
+    margin: 0px;
+}
+
+.frag1__main-div__dental-implantation__p2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 120%;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: rgb(78, 88, 98);
+    margin: 0px
+}
+
+.frag1__main-div__dental-implantation__p3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 120%;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: rgb(78, 88, 98);
+    margin: 0px
+}
+
+.frag1__main-div__dental-implantation__btn{
+    width: 543px;
+    height: 60px;
+    background: #367ACA;
+    box-shadow: 0px 12px 100px #B4CFEE;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin-top: 19.5px;
+}
+
+.frag1__main-div__dental-implantation__btn-img{
+    width: 24px;
+    height: 24px;
+}
+
+.frag1__main-div__dental-implantation__btn-p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: right;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.frag1__main-div__info{
+    width: 392px;
+    height: 177px;
+    background-color: #E7A129;
+    border-radius: 16px;
+    padding: 15px 30px;
+    position: absolute;
+    top: 616px;
+    left: 396px;
+}
+
+.frag1__main-div__info-p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    /* font-weight: 800; */
+    font-size: 28px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FEFFDF;
+    margin: 0px;
+}
+
+.frag1__main-div__info-div{
+    border: 3px dashed #FEFFDF;
+    border-radius: 16px;
+    
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 6px;
+
+}
+
+.frag1__main-div__info-div-p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.1em;
+    text-transform: uppercase;
+    color: #FEFFDF;
+    text-shadow: 0px 4px 16px rgba(255, 255, 255, 0.6);
+    margin: 0px;   
+}
+
+.frag1__main-div__osstem{
+    width: 320px;
+    height: 118px;
+    border-radius: 16px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    transform: rotate(-4deg);
+    position: absolute;
+    top: 746px;
+    left: 587px;
+    padding: 10.68px;
+}
+
+.frag1__main-div__osstem__content{
+    display: flex;
+    align-items: center;
+}
+
+.frag1__main-div__osstem__content__img{
+    width: 77.86px;
+    height: 77.86px;
+}
+
+.frag1__main-div__osstem__content__div-p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #2D2D2D;
+    margin: 0px;
+    
+}
+
+.frag1__main-div__osstem__content__div-div{
+    background-color: rgba(231, 161, 41, 0.1);
+    padding: 10.68px;
+    border-radius: 12px;
+    gap: 10px;
+}
+
+.frag1__main-div__osstem__content__div-div-p{
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: rgba(116, 116, 116, 1);
+    margin: 0px;
+}
+
+.frag1__main-div__div-tooth_implant{
+    position: absolute;
+    top: 324px;
+    left: 94px;
+}
+
+.frag1__main-div__div-tooth_implant-img{
+    width: 345px;
+    height: 520px;
+}
+
+
+@media (max-width: 1200px){
+    body{
+        background-color: #E7A129;
+    }
+}
